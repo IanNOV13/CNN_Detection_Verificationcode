@@ -39,12 +39,12 @@ class DelayedEarlyStopping(Callback):
 
 def weighted_categorical_crossentropy(weights):
     """
-    创建一个加权的交叉熵损失函数。
+    創建一個加權的的交叉熵損失函數。
     ---
     Create a weighted categorical cross-entropy loss function.
     
-    参数:
-    weights：类别的权重。
+    參數:
+    weights：各類別權重。
     ---
     Parameters:
     weights: Weights for each class.
@@ -53,13 +53,13 @@ def weighted_categorical_crossentropy(weights):
     
     def loss(y_true, y_pred):
         """
-        计算加权的交叉熵损失。
+        計算加權的交叉熵損失。
         ---
         Compute the weighted cross-entropy loss.
         
-        参数:
-        y_true：真实标签。
-        y_pred：预测值。
+        參數:
+        y_true：真實標籤。
+        y_pred：預測值。
         ---
         Parameters:
         y_true: True labels.
